@@ -2,7 +2,7 @@
 #Демонстрирует, как создавать новые строки из исходных с помощью цикла for
 message = input("Введите текст: ")
 new_message = ""
-VOWELS = "aeiouаеёиуыэюя"
+VOWELS = "aeiouаеёиуоыэюя"
 print()
 for letter in message:
     if letter.lower() not in VOWELS:
