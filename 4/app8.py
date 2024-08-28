@@ -21,7 +21,8 @@ print("Под индексом", index, "в арсенале находится"
 #отобразим срез
 start =  int(input("\nВведите начальный индекс среза: "))
 finish =  int(input("\nВведите конечный индекс среза: "))
-print("Срез inventory[", start, ":", finish, "] - это", end=" ")
+print("Срез в кортеже[", start, ":", finish, "] - это", end=" ")
+print(inventory[start:finish])
 input("\n\nНажмите Enter, чтобы продолжить.")
 #Соединяем два кортежа
 chest = ("золото", "драгоценные камни")
