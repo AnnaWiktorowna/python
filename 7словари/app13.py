@@ -6,8 +6,8 @@ car = {
     "year" : 1964
 }
 
-x = car.keys()
+x = car.values()
 print(x) #перед изменением
 
-car["color"] = "white"
+car["color"] = "red"
 print(x) #после изменения
