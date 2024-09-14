@@ -6,6 +6,6 @@ car = {
     "year" : 1964
 }
 x = car.keys()
-print(x)
+print(x) #перед изменением
 car["color"] = "white"
-print(x)
+print(x) #после изменения
