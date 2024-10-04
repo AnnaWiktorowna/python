@@ -1,5 +1,4 @@
-#Кортежи
-#Цикл по кортежу
-thistuple = ("apple", "banana", "cherry")
-for x in thistuple:
-    print(x)
+#Наборы
+#Создать набор
+thisset = {"apple", "banana", "cherry"}
+print(thisset)
