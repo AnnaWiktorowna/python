@@ -1,4 +1,4 @@
 #Наборы
-#Получить количество предметов с помощью функции len()
-thisset = {"apple", "banana", "cherry"}
-print(len(thisset))
+#Использование конструктора set() для создания нобора
+thisset = set(("apple", "banana", "cherry"))
+print(thisset)
